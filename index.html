@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SCHIZOPHRENIA</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Balthazar|Poppins" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 id="title">SCHIZOPHRENIA Survey Form</h1>
+    </header>
+
+    <form id="survey-form" >
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="input-style"
+            placeholder="Enter your name"
+            required
+          >
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="input-style"
+            placeholder="Enter your Email"
+            required
+          >
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="numer">Age</label>
+          <input
+            type="number"
+            name="number"
+            id="number"
+            class="input-style"
+            min="1"
+            max="299"
+            placeholder="Enter you Age"
+            required
+          >
+      </div>
+      <div class="form-group">
+        <p>What are  your diagnosis?</p>
+        <select name="class" id="dropdown" class="input-style" required>
+          <option disabled selected value>Select your diagnosis</option>
+          <option value="ps">Paranoid schizophrenia</option>
+          <option value="ds">Disorganized schizophrenia</option>
+          <option value="cs">Catatonic schizophrenia </option>
+          <option value="rs">Residual schizophrenia</option>
+          <option value="sd">Schizoaffective disorder</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p>What are your symptoms of schizophrenia?</p>
+
+        <label for="schizo">
+          <input
+            type="radio"
+            name="review"  
+            value="schizo"
+            class="radio-style"
+            checked
+          >Positive
+        </label>
+        <label for="dess">
+          <input
+            type="radio"
+            name="review"  
+            value="dess"
+            class="radio-style"
+          >Negative
+        </label>
+        <label for="dess1">
+          <input
+            type="radio"
+            name="review"  
+            value="dess1"
+            class="radio-style"
+          >Cognitive
+        </label>
+      </div>
+      <div class="form-group">
+        <p>Do you think you have schizophrenia?</p>
+        <label for="uc">
+          <input
+            type="checkbox"
+            name="service"  
+            value="uc"
+            class="checkbox-style"
+          >Yes
+        </label>
+        <label for="uc1">
+          <input
+            type="checkbox"
+            name="service"  
+            value="uc1"
+            class="checkbox-style"
+          >No
+        </label>
+                <div class="form-group">
+          <p>Suggestions to those who has schizophrenia:</p>
+          <textarea
+            name="comment"
+            id="comments"
+            class="textarea-style"
+            placeholder="Enter your suggestions here"
+          ></textarea>
+        </div>
+                <div class="form-group">
+          <button type="submit" id="survey-formbmit" class="button-style">
+            Submit
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
+</body>
+</html>
